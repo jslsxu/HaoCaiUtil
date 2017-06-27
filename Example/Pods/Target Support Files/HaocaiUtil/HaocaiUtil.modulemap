@@ -1,0 +1,6 @@
+framework module HaocaiUtil {
+  umbrella header "HaocaiUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

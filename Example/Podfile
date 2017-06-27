@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HaocaiUtil_Tests' do
+  pod 'HaocaiUtil', :path => '../'
+  
+  
+end
