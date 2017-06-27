@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3702DC991F023B3C0082ECAD /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DC971F023B3C0082ECAD /* Util.h */; };
+		3702DC9A1F023B3C0082ECAD /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DC981F023B3C0082ECAD /* Util.m */; };
 		66766B98CE8A9A536C58C4937572E361 /* HaocaiUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 511D132A77856613379886AB56AB17DA /* HaocaiUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A6D83672A02758236F89DCDD4E6E333 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C52302DA2979316CD0492F38C3192F5 /* ReplaceMe.m */; };
 		888FDC5834A78485EC9F5DE4154E707A /* Pods-HaocaiUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED89FF19E92E8FC73D10D1DE8D952E4 /* Pods-HaocaiUtil_Tests-dummy.m */; };
 		9789B17880C02A5C2C9426EE0DC8CAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9AF2CB59F62B316D09048D6A8E7E1665 /* HaocaiUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D9429C8C43B162D0C655313C62871C /* HaocaiUtil-dummy.m */; };
@@ -27,10 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09B9222A0A117A4E1838B2B9679EAD13 /* HaocaiUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HaocaiUtil.framework; path = HaocaiUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19984BB1693405B1DBC71AC49269E220 /* Pods-HaocaiUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HaocaiUtil_Tests.modulemap"; sourceTree = "<group>"; };
-		1FB4669514669E37F8976525D25D4204 /* HaocaiUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HaocaiUtil.modulemap; sourceTree = "<group>"; };
+		09B9222A0A117A4E1838B2B9679EAD13 /* HaocaiUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaocaiUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19984BB1693405B1DBC71AC49269E220 /* Pods-HaocaiUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaocaiUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		1FB4669514669E37F8976525D25D4204 /* HaocaiUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaocaiUtil.modulemap; sourceTree = "<group>"; };
 		36E951338EB25577B271F63FC82F02D6 /* Pods-HaocaiUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaocaiUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3702DC971F023B3C0082ECAD /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		3702DC981F023B3C0082ECAD /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		3AD93B7844A49B7F6929F303C1864ADE /* Pods-HaocaiUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaocaiUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E28349CF5107B0C9EA312E99E2B389E /* Pods-HaocaiUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaocaiUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		511D132A77856613379886AB56AB17DA /* HaocaiUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaocaiUtil-umbrella.h"; sourceTree = "<group>"; };
@@ -39,15 +42,14 @@
 		69FA321FB307AB714F1E43B19B2BE3A5 /* HaocaiUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaocaiUtil.xcconfig; sourceTree = "<group>"; };
 		76D4F306260CE876DB56F1278B022B57 /* HaocaiUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaocaiUtil-prefix.pch"; sourceTree = "<group>"; };
 		8364C60A5F2863A98E1A6D2C7F0D32AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C52302DA2979316CD0492F38C3192F5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC60CF913492960DC9ABAA918516526 /* Pods-HaocaiUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaocaiUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C108B089AD6C4056DCEC10E0AB66CD87 /* Pods-HaocaiUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaocaiUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C66684DAF3E054E4D6571BF8C3797D44 /* Pods-HaocaiUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaocaiUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CECFD3196F985121A689550FAAE04F21 /* Pods-HaocaiUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaocaiUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DED89FF19E92E8FC73D10D1DE8D952E4 /* Pods-HaocaiUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaocaiUtil_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0D9429C8C43B162D0C655313C62871C /* HaocaiUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaocaiUtil-dummy.m"; sourceTree = "<group>"; };
-		F4DF6755E02078EA81442929EE5D63EC /* Pods_HaocaiUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HaocaiUtil_Tests.framework; path = "Pods-HaocaiUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DF6755E02078EA81442929EE5D63EC /* Pods_HaocaiUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaocaiUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,9 +169,9 @@
 		D50EFDD9BA7BC3A509FD3A0E900CD53C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C52302DA2979316CD0492F38C3192F5 /* ReplaceMe.m */,
+				3702DC971F023B3C0082ECAD /* Util.h */,
+				3702DC981F023B3C0082ECAD /* Util.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -178,7 +180,6 @@
 			children = (
 				D50EFDD9BA7BC3A509FD3A0E900CD53C /* Classes */,
 			);
-			name = HaocaiUtil;
 			path = HaocaiUtil;
 			sourceTree = "<group>";
 		};
@@ -189,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3702DC991F023B3C0082ECAD /* Util.h in Headers */,
 				66766B98CE8A9A536C58C4937572E361 /* HaocaiUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF2CB59F62B316D09048D6A8E7E1665 /* HaocaiUtil-dummy.m in Sources */,
-				6A6D83672A02758236F89DCDD4E6E333 /* ReplaceMe.m in Sources */,
+				3702DC9A1F023B3C0082ECAD /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
