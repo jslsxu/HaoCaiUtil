@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <YYKit/YYKit.h>
 @interface HCBaseObject : NSObject<NSCoding, NSCopying, YYModel>
 + (NSArray *)nh_modelArrayWithJson:(id)json;
 
