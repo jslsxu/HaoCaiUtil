@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3702DC991F023B3C0082ECAD /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DC971F023B3C0082ECAD /* Util.h */; };
-		3702DC9A1F023B3C0082ECAD /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DC981F023B3C0082ECAD /* Util.m */; };
+		3702DCAD1F025B300082ECAD /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DCAB1F025B300082ECAD /* Util.h */; };
+		3702DCAE1F025B300082ECAD /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DCAC1F025B300082ECAD /* Util.m */; };
+		3702DCB21F025B550082ECAD /* HCBaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3702DCB01F025B550082ECAD /* HCBaseObject.h */; };
+		3702DCB31F025B550082ECAD /* HCBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702DCB11F025B550082ECAD /* HCBaseObject.m */; };
 		66766B98CE8A9A536C58C4937572E361 /* HaocaiUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 511D132A77856613379886AB56AB17DA /* HaocaiUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888FDC5834A78485EC9F5DE4154E707A /* Pods-HaocaiUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED89FF19E92E8FC73D10D1DE8D952E4 /* Pods-HaocaiUtil_Tests-dummy.m */; };
 		9789B17880C02A5C2C9426EE0DC8CAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -32,8 +34,11 @@
 		19984BB1693405B1DBC71AC49269E220 /* Pods-HaocaiUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaocaiUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		1FB4669514669E37F8976525D25D4204 /* HaocaiUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HaocaiUtil.modulemap; sourceTree = "<group>"; };
 		36E951338EB25577B271F63FC82F02D6 /* Pods-HaocaiUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaocaiUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3702DC971F023B3C0082ECAD /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		3702DC981F023B3C0082ECAD /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		3702DCAB1F025B300082ECAD /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		3702DCAC1F025B300082ECAD /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		3702DCAF1F025B3E0082ECAD /* HaocaiUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaocaiUtil.h; sourceTree = "<group>"; };
+		3702DCB01F025B550082ECAD /* HCBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBaseObject.h; sourceTree = "<group>"; };
+		3702DCB11F025B550082ECAD /* HCBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBaseObject.m; sourceTree = "<group>"; };
 		3AD93B7844A49B7F6929F303C1864ADE /* Pods-HaocaiUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaocaiUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E28349CF5107B0C9EA312E99E2B389E /* Pods-HaocaiUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaocaiUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		511D132A77856613379886AB56AB17DA /* HaocaiUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaocaiUtil-umbrella.h"; sourceTree = "<group>"; };
@@ -104,6 +109,24 @@
 			path = "Target Support Files/Pods-HaocaiUtil_Tests";
 			sourceTree = "<group>";
 		};
+		3702DCA91F025B300082ECAD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3702DCB01F025B550082ECAD /* HCBaseObject.h */,
+				3702DCB11F025B550082ECAD /* HCBaseObject.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3702DCAA1F025B300082ECAD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3702DCAB1F025B300082ECAD /* Util.h */,
+				3702DCAC1F025B300082ECAD /* Util.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		4CFF81A2A7AB6D785BBD14AA4DBCF8F0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,8 +192,9 @@
 		D50EFDD9BA7BC3A509FD3A0E900CD53C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3702DC971F023B3C0082ECAD /* Util.h */,
-				3702DC981F023B3C0082ECAD /* Util.m */,
+				3702DCA91F025B300082ECAD /* Base */,
+				3702DCAA1F025B300082ECAD /* Util */,
+				3702DCAF1F025B3E0082ECAD /* HaocaiUtil.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,7 +214,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3702DC991F023B3C0082ECAD /* Util.h in Headers */,
+				3702DCAD1F025B300082ECAD /* Util.h in Headers */,
+				3702DCB21F025B550082ECAD /* HCBaseObject.h in Headers */,
 				66766B98CE8A9A536C58C4937572E361 /* HaocaiUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF2CB59F62B316D09048D6A8E7E1665 /* HaocaiUtil-dummy.m in Sources */,
-				3702DC9A1F023B3C0082ECAD /* Util.m in Sources */,
+				3702DCAE1F025B300082ECAD /* Util.m in Sources */,
+				3702DCB31F025B550082ECAD /* HCBaseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
