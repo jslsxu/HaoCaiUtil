@@ -8,6 +8,7 @@
 
 #import "HCBaseObject.h"
 
+@implementation HCBaseObject
 + (NSArray *)nh_modelArrayWithJson:(id)json {
     return [NSArray modelArrayWithClass:[self class] json:json];
 }
@@ -39,3 +40,9 @@
 - (NSUInteger)hash {
     return [self modelHash];
 }
+
+//- (BOOL)isEqual:(id)object{
+//    return [self modelIsEqual:object];
+//}
+
+@end
