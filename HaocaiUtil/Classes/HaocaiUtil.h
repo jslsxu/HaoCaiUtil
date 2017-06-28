@@ -9,5 +9,7 @@
 #ifndef HaocaiUtil_h
 #define HaocaiUtil_h
 
+#import "HCBaseObject.h"
+#import "Util.h"
 
 #endif /* HaocaiUtil_h */

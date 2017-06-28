@@ -10,6 +10,6 @@
 
 @implementation Util
 + (void)print{
-    NSLog(@"util print");
+    printf("util print");
 }
 @end
